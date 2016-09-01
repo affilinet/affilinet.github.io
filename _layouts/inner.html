@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="page-top" class="index">
+	{% include nav.html %}
+
+	<div class="container inner">
+		<div class="row">
+			<!-- Vertical nav -->
+			<div class="col-lg-3">				
+				<nav class="fixed-sidebar hidden-print hidden-xs hidden-sm">
+					<ul class="nav nav-pills nav-stacked">
+						<li class="page-scroll" role="presentation" class="active"><a href="#home">Home</a></li>
+						<li class="page-scroll" role="presentation"><a href="#profile">Profile</a></li>
+						<li class="page-scroll" role="presentation"><a href="#messages">Messages</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- Content -->
+			<div class="col-lg-9">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>{{ page.title }}</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+	{% include js.html %}
+</body>
+</html>

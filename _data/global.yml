@@ -1,0 +1,53 @@
+# Site settings
+title: affilinet Developer Hub
+subtitle: Tools for an easy integration with affilinet for publishers and advertisers
+email: info@affili.networks
+url: https://affilinet.github.io
+description: "affilinet is one of the leading affiliate networks in Europe. We offer our partners results-oriented online marketing solutions. Over 2,500 advertisers and more than 500,000 publishers benefit from our innovative platform for affiliate marketing and data-driven advertising."
+meta_author: affilinet 
+base_url: http://localhost:4000
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: affilinet
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  darkbrown: 3b302d 
+  lightbrown: B2A79D
+  affilinet_red: ff3f2c
+  tangerine: ec5b0a
+  tomato: de1c44
+  aubergine: 53214b
+  berry: 90005b
+
+# Footer settings
+footer:
+  copyright: affilinet
+  location: Location
+  social: Follow us
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/affilinet_news
+  - title: facebook
+    url: https://www.facebook.com/affilinet
+  - title: github
+    url: http://github.com/affilinet
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: affilinet GmbH
+  - line: Sapporobogen 6-8 80637 
+  - line: Munich 
+  - line: Germany 
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
