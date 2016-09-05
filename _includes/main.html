@@ -1,0 +1,47 @@
+ <!-- Store all collections in new collections array -->
+{% for collection in site.collections %}
+{% if collection.label != "posts" %}
+ <!-- Publisher Portfolio Section -->
+ <section id="{{ collection.slug }}" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ collection.title }}</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                  {% assign projects = collection.docs | sort: "position" | where: "published", true %}
+                  {% for project in projects %}
+                  <div class="col-lg-4 col-sm-6 portfolio-item">
+                     <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h5>{{ project.title }}</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <a href="{{ site.url }}/{{ project.link }}" class="portfolio-link" target="_blank">
+                                <div class="caption">
+                                    <div class="caption-image">
+                                        <img src="assets/img/projects/{{ project.img }}" class="img-responsive" alt="{{ project.alt }}">
+                                    </div>
+                                    <div class="caption-content">
+                                        {{ project.description }}   
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+{% endif %}
+{% endfor %}
+ 

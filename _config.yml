@@ -1,75 +1,51 @@
-# Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-layouts_dir:  ./_layouts
-data_dir:     ./_data
-includes_dir: ./_includes
-collections: 
-  - advertiser_projects
-  - publisher_projects
+# Site
+title: affilinet Developer Hub
+subtitle: Tools for an easy integration with affilinet for publishers and advertisers
+meta_description: Find documentation and download for all affilinet Developer tools
+url: https://affilinet.github.io
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
-
-# Plugins
-whitelist: []
-gems:      []
+mainmenu: 
+  - slug: publisher
+    title: Publisher
+  - slug: advertiser
+    title: Advertiser
 
 # Conversion
-markdown:    kramdown
+markdown: kramdown
 highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
+permalink: date
 
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
+# Collections
+collections:
+  advertiser_projects:
+    title: Advertiser
+    slug: advertiser
+  publisher_projects:
+    title: Publisher
+    slug: publisher
 
-# Outputting
-permalink:     /:title.html
-paginate: 10
-paginate_path: /page:num
-timezone:      null
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 
-quiet:    false
-defaults: []
+# Default font sizes
+maintext_fontsize: 20px
+maintext_lists_fontsize: 18px
+mainmenu_fontsize: 15px
+sidebar_fontsize: 16px
 
-# Markdown Processors
-rdiscount:
-  extensions: []
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  darkbrown: 3b302d 
+  lightbrown: B2A79D
+  lightbrown_background: efedeb
+  affilinet_red: ff3f2c
+  tangerine: ec5b0a
+  tomato: de1c44
+  aubergine: 53214b
+  berry: 90005b
 
-redcarpet:
-  extensions: []
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
-
-include: ['_pages']

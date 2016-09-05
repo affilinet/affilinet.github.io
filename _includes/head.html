@@ -1,28 +1,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if site.title %} {{ site.title }} {% else %} affilinet Developer Hub {% endif %} {% if page.title %} - {{ page.title }} {% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
+    <meta name="description" content="{{ site.meta_description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/style.css" }}">
+    <link rel="stylesheet" href="{{ "/devhub.css" }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" }}">
 
     <!-- Affilinet Font -->
     <link href="http://db.onlinewebfonts.com/c/dff7e257d3e9cd2eed67e7e1fa2d7f35?family=NHaasGroteskTXW01-75Bd" rel="stylesheet" type="text/css">
 
-
-    <!-- Google verification -->
-    {% if site.data.global.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-
-    <!-- Bing Verification -->
-    {% if site.data.global.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
-
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" }}">
+     <!-- Custom Fonts -->
+    <script src="https://use.fontawesome.com/9381422712.js"></script>    
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -32,4 +24,4 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
+</head>

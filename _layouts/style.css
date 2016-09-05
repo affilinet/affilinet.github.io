@@ -1,2 +1,3 @@
-{% include css/bootstrap.min.css %}
-{% include css/main.css %}
+{% include css/bootstrap-flatly-theme.min.css %}
+{% include css/devhub.css %}
+{% include css/syntax_highlighting.css %}

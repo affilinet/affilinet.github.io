@@ -1,37 +1,39 @@
    <!-- Navigation -->
    <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#page-top">
-              <img style="width:150px" class="img-responsive" src="img/affilinet_logo_rev-out.png" alt="affilinet Logo">
-          </a>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://affilinet.github.io" target="_blank">
+          <img style="width:150px" class="img-responsive" src="http://testodrom.de/pm/ao/devhub/img/affilinet_logo_rev-out.png" alt="affilinet Logo">
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse navbar-right" style="height: 1px;">
         <ul class="nav navbar-nav">
-            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-            <li class="hidden">
-                <a href="#page-top"></a>
-            </li>        
-            <li class="page-scroll">
-                <a data-anchor="#publisher" href="#publisher">Publisher</a>
-            </li>
-            <li class="page-scroll">
-                <a data-anchor="#advertiser" href="#advertiser">Advertiser</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-</div>
-<!-- /.container-fluid -->
-</nav>
 
-          
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>   
+
+          <!-- Show main menus (configured in _config.yml) --> 
+          {% for menu_item in site.mainmenu %}
+              <li class="page-scroll">   
+                <a data-anchor="#{{ menu_item.slug }}" href="#{{ menu_item.slug }}">{{ menu_item.title }}</a>
+              </li>  
+          {% endfor %}
+             
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
