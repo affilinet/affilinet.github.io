@@ -17,12 +17,12 @@ permalink: date
 
 # Collections
 collections:
-  advertiser_projects:
-    title: Advertiser
-    slug: advertiser
   publisher_projects:
     title: Publisher
     slug: publisher
+  advertiser_projects:
+    title: Advertiser
+    slug: advertiser
 
 # Defaults
 defaults:
@@ -44,11 +44,18 @@ color:
   darkbrown: 3b302d 
   lightbrown: B2A79D
   lightbrown_background: efedeb
+  pink: DE1C44
+  purple: 90005B
   affilinet_red: ff3f2c
   tangerine: ec5b0a
   tomato: de1c44
   aubergine: 53214b
   berry: 90005b
-  yellow: EC810A
+  yellow: EC810A  
   green: 3D7850
+  lightgreen: 73BA73
+  lighblue: 7882DC
+  blue: 283CC8
+
+
 

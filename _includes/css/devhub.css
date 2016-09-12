@@ -38,6 +38,12 @@ pre {
     color: #{{ site.color.darkbrown }};
 }
 
+pre pre {
+    background-color: transparent;
+    border: none;
+}
+
+
 a,
 a:hover,
 a:focus,
@@ -551,7 +557,7 @@ footer .footer-below {
 affilinet changes
 */
 .affilinet_footer_name {
- color: #de1c44;
+ color: #{{ site.color.pink }};
  font-family: "NHaasGroteskTXW01-75Bd","Arial","Helvetica",sans-serif;
  font-size: 40px;
  line-height: 1.2;
