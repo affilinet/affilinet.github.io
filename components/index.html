@@ -1,0 +1,305 @@
+---
+layout: devonly
+title: Components
+slug: components
+---
+
+<h4>Responsive Table</h4>
+
+<div class="example">
+  <div class="table-responsive"> 
+    <table class="table"> 
+      <thead>
+        <tr>
+          <th>Attribute</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>   
+        <tr>
+          <td>productId</td>
+          <td>product ID</td>
+          <td>The product Id</td>
+        </tr>
+        <tr>
+          <td>shopTitle</td>
+          <td>Shop Title</td>
+          <td>The shop title</td>
+        </tr>   
+      </tbody>
+    </table>
+  </div>
+</div>
+    
+{% highlight html linenos %}
+<div class="table-responsive"> 
+<table class="table"> 
+  <thead>
+    <tr>
+    <th>Attribute</th>
+    <th>Type</th>
+    <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>   
+    <tr>
+      <td>productId</td>
+      <td>product ID</td>
+      <td>The product Id</td>
+    </tr>
+    <tr>
+      <td>shopTitle</td>
+      <td>Shop Title</td>
+      <td>The shop title</td>
+    </tr>   
+  </tbody>
+</table>
+</div>
+{% endhighlight %}
+
+
+<h4>Alerts</h4>
+
+<div class="example">
+  <div role="alert" class="alert alert-success"> 
+    <strong>Well done!</strong> You successfully read <a class="alert-link" href="#">this important alert message</a>. 
+  </div> 
+  <div role="alert" class="alert alert-info"> 
+    <strong>Heads up!</strong> This <a class="alert-link" href="#">alert needs your attention</a>, but it's not super important.
+  </div> 
+  <div role="alert" class="alert alert-warning">
+    <strong>Warning!</strong> Better check yourself, you're <a class="alert-link" href="#">not looking too good</a>. 
+  </div> 
+  <div role="alert" class="alert alert-danger"> 
+    <strong>Oh snap!</strong> <a class="alert-link" href="#">Change a few things up</a> and try submitting again. 
+  </div>
+</div>
+
+{% highlight html linenos %}
+<div role="alert" class="alert alert-success"> 
+  <strong>Well done!</strong> You successfully read <a class="alert-link" href="#">this important alert message</a>. 
+</div> 
+<div role="alert" class="alert alert-info"> 
+  <strong>Heads up!</strong> This <a class="alert-link" href="#">alert needs your attention</a>, but it's not super important.
+</div> 
+<div role="alert" class="alert alert-warning">
+  <strong>Warning!</strong> Better check yourself, you're <a class="alert-link" href="#">not looking too good</a>. 
+</div> 
+<div role="alert" class="alert alert-danger"> 
+  <strong>Oh snap!</strong> <a class="alert-link" href="#">Change a few things up</a> and try submitting again. 
+</div>
+{% endhighlight %}
+
+
+<h4>Dismissible alerts</h4>
+<div class="example">
+  <div class="alert alert-success alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Well done!</strong> You successfully read <a class="alert-link" href="#">this important alert message</a>
+  </div>
+</div>
+
+{% highlight html linenos %}
+<div class="alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Well done!</strong> You successfully read <a class="alert-link" href="#">this important alert message</a>
+</div>
+{% endhighlight %}
+
+
+<h4>Contextual backgrounds</h4>
+<div class="example">
+  <p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+  <p class="bg-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+  <p class="bg-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  <p class="bg-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+  <p class="bg-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+</div>
+
+{% highlight html linenos %}
+<p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="bg-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+<p class="bg-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+<p class="bg-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+<p class="bg-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+{% endhighlight %}
+
+
+<h4>Wells</h4>
+<div class="example">
+  <div class="well well-sm">Small Well</div>
+  <div class="well well-lg">Large Well</div>
+</div>
+
+{% highlight html linenos %}
+<div class="well well-sm">Small Well</div>
+<div class="well well-lg">Large Well</div>
+{% endhighlight %}
+
+
+<h4>Collapsible</h4>
+
+<div class="example">
+  <a class="btn btn-default" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Click to collapse
+  </a>
+  <div class="collapse" id="collapseExample">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </div>
+</div>
+
+{% highlight html linenos %}
+<a class="btn btn-default" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  Click to collapse
+</a>
+<div class="collapse" id="collapseExample">
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</div>
+{% endhighlight %}
+
+
+<h4>Buttons</h4>
+<div class="example">
+  <button type="button" class="btn btn-default">Default</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-link">Link</button>
+</div>
+
+{% highlight html linenos %}
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+{% endhighlight %}
+
+
+<h4>Badges</h4>
+
+<div class="example">
+  <p>
+    <a href="#">Inbox <span class="badge">42</span></a>
+  </p>
+  <button class="btn btn-primary" type="button">
+    Messages <span class="badge">4</span>
+  </button>
+</div>
+
+{% highlight html linenos %}
+<p>
+  <a href="#">Inbox <span class="badge">42</span></a>
+</p>
+<button class="btn btn-primary" type="button">
+  Messages <span class="badge">4</span>
+</button>
+{% endhighlight %}
+
+
+<h4>Labels</h4>
+
+<div class="example">
+  <span class="label label-default">Default</span>
+  <span class="label label-primary">Primary</span>
+  <span class="label label-success">Success</span>
+  <span class="label label-info">Info</span>
+  <span class="label label-warning">Warning</span>
+  <span class="label label-danger">Danger</span>
+</div>
+
+{% highlight html linenos %}
+<span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>
+{% endhighlight %}
+
+
+<h4>Contextual colors</h4>
+
+<div class="example">
+  <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p> 
+  <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+  <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p> 
+  <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p> 
+  <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p> 
+  <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+</div>
+
+{% highlight html linenos %}
+<p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p> 
+<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p> 
+<p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p> 
+<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p> 
+<p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+{% endhighlight %}
+
+
+<h4>Syntax Highlighting</h4>
+
+<div class="row">
+<div class="col-lg-12">
+<p>  Use the highlight tag <code>{{ "{% highlight " }}%}</code> for syntax highlighing. Add the alias of the language you want to highlight, e.g. <code>{{ "{% highlight html " }}%}</code>. </p>
+<p>Simply add "linenos" to the highlight tag to display line numbers, e.g. <code>{{ "{% highlight php linenos " }}%}</code>.</p>
+<p>Use <code>{{ "{% endhighlight " }}%}</code> as closing tag.</p>
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> <a target="_blank" href="https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers">List of all supported languages</a></p><br>
+</div>
+<div class="col-lg-6">
+<div class="example">
+<p class="text-primary">Default</p> 
+
+{% highlight html %}
+<html>
+  <head>
+  ...
+  </head>
+  <body>
+  ...
+  </body>
+</html>
+{% endhighlight %}
+</div>
+
+{% highlight liquid %}
+{{ "{% highlight html " }}%}
+<html>
+  <head>
+  ...
+  </head>
+  <body>
+  ...
+  </body>
+</html>
+{{ "{% endhighlight " }}%}
+{% endhighlight %}
+</div>
+
+<div class="col-lg-6">
+<div class="example">
+<p class="text-primary">With line numbers</p> 
+
+{% highlight php linenos %}
+<?php 
+  echo "hallo Welt";
+?>
+{% endhighlight %}
+</div>  
+
+{% highlight liquid %}
+{{ "{% highlight php linenos " }}%}
+<?php 
+  echo "hallo Welt";
+?>
+{{ "{% endhighlight " }}%}
+{% endhighlight %}
+</div>
+</div>

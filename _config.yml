@@ -5,10 +5,10 @@ meta_description: Find documentation and download for all affilinet Developer to
 url: https://affilinet.github.io
 
 mainmenu: 
-  - slug: publisher
-    title: Publisher
-  - slug: advertiser
-    title: Advertiser
+  - title: Publisher
+    slug: publisher
+  - title: Advertiser
+    slug: advertiser
 
 # Conversion
 markdown: kramdown
@@ -38,19 +38,18 @@ maintext_lists_fontsize: 16px
 mainmenu_fontsize: 15px
 sidebar_fontsize: 16px
 table_fontsize: 14px
+code_fontsize: 13px
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   darkbrown: 3b302d 
   lightbrown: B2A79D
-  lightbrown_background: efedeb
+  lightbrown_background: f7f6f5
   pink: DE1C44
   purple: 90005B
-  affilinet_red: ff3f2c
-  tangerine: ec5b0a
-  tomato: de1c44
-  aubergine: 53214b
-  berry: 90005b
+  darkpurple: 53214b
+  red: ff3f2c
+  orange: ec5b0a
   yellow: EC810A  
   green: 3D7850
   lightgreen: 73BA73
