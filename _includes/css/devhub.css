@@ -95,7 +95,9 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    padding-top: 20px;
+    padding-top: 0;
+    margin-top: 21px;
+    margin-bottom: 10.5px;
 }
 
 h2, .h2 {    
@@ -668,6 +670,7 @@ nav.fixed-sidebar {
 }
 
 nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
+        color: #{{ site.color.darkbrown }};
     font-size: {{ site.sidebar_fontsize }};
 }
 
@@ -677,7 +680,6 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 
 .nav li a:hover, .nav li a:focus {
     background-color: #{{ site.color.lightbrown_background }};
-
 }
 
 .nav .nav {
@@ -691,6 +693,7 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 .nav .nav a {
   font-weight: normal;
   font-size: .85em;
+  color: #{{ site.color.darkbrown }};
 }
 
 .nav .nav .nav a {
@@ -700,7 +703,6 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 .nav .nav .active .nav a {
    font-weight: normal;
 }
-
 
 .nav .nav span {
   margin: 0 5px 0 2px;
@@ -906,9 +908,13 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
     color: #A8A199;
 }
 
-#content ul.breadcrumb li, #content ol.breadcrumb li {
+ul.breadcrumb li, ol.breadcrumb li {
     font-size: 15px;
     padding-left: 2px;
+}
+
+ul.breadcrumb li a, ol.breadcrumb li a {
+   color: #{{ site.color.darkbrown }};
 }
 
 table {
