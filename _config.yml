@@ -20,9 +20,11 @@ collections:
   publisher_projects:
     title: Publisher
     slug: publisher
+    position: 1
   advertiser_projects:
     title: Advertiser
     slug: advertiser
+    position: 2
 
 # Defaults
 defaults:

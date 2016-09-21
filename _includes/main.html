@@ -21,7 +21,8 @@
 {% else %}
 
     <!-- Iterate over collections -->
-    {% for collection in site.collections %}
+    {% assign collections = site.collections | sort: "position" %}
+    {% for collection in collections %}
     {% if collection.label != "posts" %}
      <!-- Portfolio Section -->
      <section id="{{ collection.slug }}" class="portfolio">
