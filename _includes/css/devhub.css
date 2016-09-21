@@ -184,7 +184,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image:url("img/projects/Transparenz.jpg");  
+    background-image:url("/assets/img/projects/Transparenz.jpg");  
     background-position: 43% 57%;
 }
 
