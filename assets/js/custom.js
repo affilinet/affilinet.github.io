@@ -4,7 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
-    target: 'nav'
+    target: 'nav.navbar', 
+    // offset: 100
 })
+
+

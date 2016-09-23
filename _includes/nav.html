@@ -25,14 +25,14 @@
 
           <!-- Show main menus (configured in _config.yml) --> 
           {% for menu_item in site.mainmenu %}
-              <li class="page-scroll">   
-                <a data-anchor="#{{ menu_item.slug }}" href="{{ site.base_url }}/#{{ menu_item.slug }}">{{ menu_item.title }}</a>
+              <li>   
+                <a data-anchor="#{{ menu_item.slug }}" href="#{{ menu_item.slug }}">{{ menu_item.title }}</a>
               </li>  
           {% endfor %}
 
           <!-- Display Components Menu Item if in development mode -->
           {% if jekyll.environment == "development" %}
-            <li class="page-scroll">
+            <li>
               <a href="/components"><span class="text-primary">Components</span></a> 
             </li>
           {% endif %}
