@@ -17,8 +17,8 @@
                    <h3>Location</h3>
                    <p>
                         affilinet GmbH <br>
-                        Sapporobogen 6-8 80637 <br>
-                        Munich <br>
+                        {{ site.address_street }}  <br>
+                        {{ site.address_city }} <br>
                         Germany <br>
                     </p>
                 </div>
@@ -26,13 +26,13 @@
                   <h3>Follow Us</h3>
                   <ul class="list-inline">          
                      <li>
-                        <a class="btn-social btn-outline" href="http://twitter.com/affilinet_news"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
+                        <a class="btn-social btn-outline" href="{{ site.twitter }}"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a class="btn-social btn-outline" href="https://www.facebook.com/affilinet"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
+                        <a class="btn-social btn-outline" href="{{ site.facebook }}"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a class="btn-social btn-outline" href="http://github.com/affilinet"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a>
+                        <a class="btn-social btn-outline" href="{{ site.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i></a>
                     </li>           
                 </ul>
             </div>
@@ -46,7 +46,7 @@
                  Copyright &copy; affilinet 20{{ site.time | date: '%y' }}
             </div>
         </div>
-    </div>
+    </div> 
 </div>
 </footer>
 
@@ -55,4 +55,4 @@
     <a class="btn btn-primary" href="#page-top">
         <i class="fa fa-chevron-up"></i>
     </a>
-</div>
+</div> 
