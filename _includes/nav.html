@@ -29,14 +29,7 @@
                 <a data-anchor="#{{ menu_item.slug }}" href="#{{ menu_item.slug }}">{{ menu_item.title }}</a>
               </li>  
           {% endfor %}
-
-          <!-- Display Components Menu Item if in development mode -->
-          {% if jekyll.environment == "development" %}
-            <li>
-              <a href="/components"><span class="text-primary">Components</span></a> 
-            </li>
-          {% endif %}
-             
+      
         </ul>
       </div>
       <!-- /.navbar-collapse -->
