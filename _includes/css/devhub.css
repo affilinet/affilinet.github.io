@@ -279,11 +279,12 @@ header .intro-text .skills {
 }
 
 .navbar-nav > li > a {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px;
     padding: 20px 0px;
     margin-left: 10px; 
     margin-right: 10px;
+    letter-spacing: 0;
 }
 
 .navbar .navbar-nav li a:focus {
