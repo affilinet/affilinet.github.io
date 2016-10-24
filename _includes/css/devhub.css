@@ -278,6 +278,12 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
+.navbar-nav > li > a {
+    font-size: 13px;
+    line-height: 13px;
+    padding: 20px 10px;
+}
+
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
@@ -898,26 +904,29 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
     padding-left: 0px;
 }
 
-.breadcrumb {
-    background: transparent;
-    padding: 8px 15px 8px 0;
-}
+@media(min-width:768px) {
 
-.breadcrumb > li + li::before {
-    color: #A8A199;
-}
+    .breadcrumb {
+        background: transparent;
+        padding: 8px 15px 8px 0;
+    }
 
-.breadcrumb > .active {
-    color: #A8A199;
-}
+    .breadcrumb > li + li::before {
+        color: #A8A199;
+    }
 
-ul.breadcrumb li, ol.breadcrumb li {
-    font-size: 15px;
-    padding-left: 2px;
-}
+    .breadcrumb > .active {
+        color: #A8A199;
+    }
 
-ul.breadcrumb li a, ol.breadcrumb li a {
-   color: #{{ site.color.darkbrown }};
+    ul.breadcrumb li, ol.breadcrumb li {
+        font-size: 15px;
+        padding-left: 2px;
+    }
+
+    ul.breadcrumb li a, ol.breadcrumb li a {
+       color: #{{ site.color.darkbrown }};
+    }
 }
 
 table {
