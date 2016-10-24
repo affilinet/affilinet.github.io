@@ -98,6 +98,11 @@ h6 {
     margin-bottom: 10.5px;
 }
 
+h1, .h1 {    
+    font-size: 32px;
+}
+
+
 h2, .h2 {    
     font-size: 26px;
 }
