@@ -25,6 +25,10 @@ p {
     font-size: {{ site.maintext_fontsize }};
 }
 
+img {
+    margin: 10px 0;
+}
+
 small {
     margin-bottom: 8px;
     display: inline-block;    
