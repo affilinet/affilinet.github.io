@@ -761,7 +761,7 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 
 .bg-success {
     background-color:#{{ site.color.green }};
-    padding: 15px;
+    padding: 10px;
     color: #fff;
 }
 
@@ -874,6 +874,9 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 }
 
 
+.alert {
+    padding: 10px;
+}
 .alert-info {
    background-color: #{{ site.color.purple }};
    border-color: #810051;
