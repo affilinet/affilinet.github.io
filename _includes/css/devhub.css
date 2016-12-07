@@ -966,6 +966,10 @@ table, table p, table ul li, table ol li, #content table ul li, #content table o
     border-bottom: 2px solid #{{ site.color.lightbrown }};
 }
 
+.table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+    white-space: normal;
+}
+
 .example {
    background-color: #fff;
     border-color: #ddd;
