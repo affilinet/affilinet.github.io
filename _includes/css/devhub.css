@@ -945,7 +945,7 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
     }
 }
 
-table {
+table, table p, table ul li, table ul li a {
     font-size: #{{ site.table_fontsize }};
 }
 
