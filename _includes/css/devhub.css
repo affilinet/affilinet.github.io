@@ -945,8 +945,8 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
     }
 }
 
-table, table p, table ul li, table ul li a {
-    font-size: #{{ site.table_fontsize }};
+table, table p, table ul li, table ol li, #content table ul li, #content table ol li {
+    font-size: {{ site.table_fontsize }};
 }
 
 .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
