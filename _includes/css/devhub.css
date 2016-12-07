@@ -949,6 +949,11 @@ table, table p, table ul li, table ol li, #content table ul li, #content table o
     font-size: {{ site.table_fontsize }};
 }
 
+#content table ul li, #content table ol li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
     border-top: 0 none;
 }
