@@ -773,7 +773,7 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 
 .bg-warning {
     background-color: #{{ site.color.yellow }};
-    padding: 10x;
+    padding: 10px;
     color: #fff;
 }
 
