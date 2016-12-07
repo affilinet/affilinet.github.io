@@ -94,6 +94,13 @@ a.active {
     color: #{{ site.color.pink }};
 }
 
+a.anchor {
+    display:block; 
+    position:relative; 
+    top:-110px; 
+    visibility:hidden;
+}
+
 h1,
 h2,
 h3,
