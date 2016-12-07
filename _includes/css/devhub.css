@@ -755,7 +755,7 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 
 .bg-danger {
     background-color: #{{ site.color.red }};
-    padding: 15px;
+    padding: 10px;
     color: #fff;
 }
 
@@ -767,19 +767,19 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
 
 .bg-info {
     background-color: #{{ site.color.purple }};
-    padding: 15px;
+    padding: 10px;
     color: #fff;
 }
 
 .bg-warning {
     background-color: #{{ site.color.yellow }};
-    padding: 15px;
+    padding: 10x;
     color: #fff;
 }
 
 .bg-primary {
     background-color: #{{ site.color.pink }};
-    padding: 15px;
+    padding: 10px;
     color: #fff;
 }
 
