@@ -35,7 +35,7 @@ small {
 }
 
 .well code, .well-sm code, .alert code, .bg-primary code, .bg-success code, .bg-info code, .bg-warning code, .bg-danger code {
-    background-color: none;
+    background-color: transparent;
     color: #fff;
     font-weight: bold;
 }
