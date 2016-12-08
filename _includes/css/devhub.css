@@ -697,9 +697,32 @@ nav.fixed-sidebar ul li a, nav.fixed-sidebar ol li a {
     font-size: {{ site.sidebar_fontsize }};
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #{{ site.color.lightbrown }};
+}
+
+
+.nav-tabs > li > a {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus  {
+    border-color: #{{ site.color.lightbrown }} #{{ site.color.lightbrown }} transparent;
+}
+
+.nav-tabs li a:hover, .nav-tabs li a:focus {
+   border-color: #{{ site.color.lightbrown }};
+}
+
+.tab-content {
+    padding: 10px;
+}
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background: #{{ site.color.pink }};
 }
+
 
 .nav li a:hover, .nav li a:focus {
     background-color: #{{ site.color.lightbrown_background }};
