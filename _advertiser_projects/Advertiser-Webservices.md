@@ -8,7 +8,7 @@ alt: affilinet Advertiser Webservices
 # description used for the project overview
 description: Use our advertiser webservices to <b>manage your orders, build statistics</b> and more.  
 # published: the project is only shown on the project overview page if set to true
-published: false
+published: true
 # position: used for sorting the projects on the overview pa
 position: 1
 

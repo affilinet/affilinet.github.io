@@ -8,7 +8,7 @@ alt: affilinet Product Data Webservices
 # description used for the project overview
 description: Access <b>millions of products</b> with our product data webservices. Search for products, get product details, get a list of all accessible shops and their offers, and much more. 
 # published: the project is only shown on the project overview page if set to true
-published: false
+published: true
 # position: used for sorting the projects on the overview page 
 position: 1
 

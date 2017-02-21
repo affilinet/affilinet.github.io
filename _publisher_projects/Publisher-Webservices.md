@@ -8,7 +8,7 @@ alt: affilinet Publisher Webservices
 # description used for the project overview
 description: Get access to your <b>publisher account, statistics, programs</b> and more.
 # published: the project is only shown on the project overview page if set to true
-published: false
+published: true
 # position: used for sorting the projects on the overview page 
 position: 3
 
