@@ -10,6 +10,6 @@ description: Our affilinet Magento module enables you to <b>integrate all of the
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 3
+position: 4
 
 ---
