@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: publisher-app-ios
+title: Publisher iOS App
 # image used for the project overview (see assets/img folder)
 img: header_800_Mobile_App2.jpg
 # text for HTML alt tag

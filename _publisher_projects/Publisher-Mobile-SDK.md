@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: mobile-sdk-publisher
+title: Publisher Mobile SD
 # image used for the project overview (see assets/img folder)
 img: header_1200_Mobile_Commerce.jpg
 # text for HTML alt tag

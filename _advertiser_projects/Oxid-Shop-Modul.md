@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: ecommerce-module-oxid
+title: OXID eShop Module
 # image used for the project overview (see assets/img folder)
 img: header_800_Oxid.jpg
 # text for HTML alt tag

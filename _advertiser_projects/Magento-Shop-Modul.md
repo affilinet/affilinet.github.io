@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: ecommerce-module-magento
+title: Magento Shop Module
 # image used for the project overview (see assets/img folder)
 img: header_800_ecommerce_module.jpg
 # text for HTML alt tag

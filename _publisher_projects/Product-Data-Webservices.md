@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: productdata-webservices
+title: Product Data Webservices
 # image used for the project overview (see assets/img folder)
 img: header_1200_Product_Data.jpg
 # text for HTML alt tag

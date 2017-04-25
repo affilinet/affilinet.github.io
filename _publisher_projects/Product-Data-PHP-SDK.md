@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: productdata-php-sdk
+title: Product Data PHP SDK
 # image used for the project overview (see assets/img folder)
 img: header_1200_Product_Feeds.jpg
 # text for HTML alt tag

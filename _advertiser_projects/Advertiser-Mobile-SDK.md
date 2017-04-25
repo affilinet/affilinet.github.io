@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: mobile-sdk-advertiser
+title: Advertiser Mobile SDK
 # image used for the project overview (see assets/img folder)
 img: header_800_Mobile_App.jpg
 # text for HTML alt tag

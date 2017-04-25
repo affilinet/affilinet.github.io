@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: advertiser-container-tag
+title: Advertiser Container Tag (ACT)
 # image used for the project overview (see assets/img folder)
 img: header_800_Container.jpg
 # text for HTML alt tag

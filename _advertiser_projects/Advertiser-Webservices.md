@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: advertiser-webservices
+title: Advertiser Webservices
 # image used for the project overview (see assets/img folder)
 img: header_800_Call_Trackig.jpg
 # text for HTML alt tag

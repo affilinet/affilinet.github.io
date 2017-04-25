@@ -1,6 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: 3rd-party-apps-publisher
+title: 3rd Party Apps
 # image used for the project overview (see assets/img folder)
 img: header_800_Tools.jpg
 # text for HTML alt tag
