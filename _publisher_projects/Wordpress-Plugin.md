@@ -7,7 +7,7 @@ img: header_800_Business_Offers.jpg
 # text for HTML alt tag
 alt: affilinet Wordpress Plugin
 # description used for the project overview
-description: Easily integrate <b>intelligent display ads</b> into your site with our Performance Ads Wordpress plugin.
+description: Easily integrate <b>intelligent display ads</b> into your site with our Performance Ads WordPress plugin.
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
