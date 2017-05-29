@@ -11,6 +11,6 @@ description: Check out our list of helpful 3rd party apps
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 6
+position: 7
 
 ---
