@@ -9,7 +9,7 @@ alt: affilinet Firefox Toolbar
 # description used for the project overview
 description: The affilinet <b>Publisher Firefox Toolbar</b> provides handy functionality to pull statistics, create new advertiser partnerships and other functionality normally only available within the publisher login portal.
 # published: the project is only shown on the project overview page if set to true
-published: false
+published: true
 # position: used for sorting the projects on the overview page 
 position: 6
 
