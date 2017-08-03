@@ -1,16 +1,16 @@
 ---
 # Github project slug used to link to the project page
-slug: firefox-toolbar
-title: Firefox Toolbar
+slug: browser-webextension-publisher
+title: Browser Extension for Publishers
 # image used for the project overview (see assets/img folder)
 img: header_800_Performance_Ads_2.jpg
 # text for HTML alt tag
-alt: affilinet Firefox Toolbar
+alt: Browser Extension for Publishers
 # description used for the project overview
-description: The affilinet <b>Publisher Firefox Toolbar</b> provides handy functionality to pull statistics, create new advertiser partnerships and other functionality normally only available within the publisher login portal.
+description: The Browser Extension for Publishers, available for Chrome and Firefox, provides handy functionality to pull statistics, create partnerships and grab creative codes via the browser.
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 9
+position: 6
 
 ---
