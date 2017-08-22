@@ -11,6 +11,6 @@ description: affilinet’s Mobile Ad-SDK for Publishers is a <b>feature reach mo
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 4
+position: 2
 
 ---

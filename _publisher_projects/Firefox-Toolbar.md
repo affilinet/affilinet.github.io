@@ -11,6 +11,6 @@ description: The affilinet <b>Publisher Firefox Toolbar</b> provides handy funct
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 9
+position: 10
 
 ---

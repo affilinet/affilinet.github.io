@@ -11,6 +11,6 @@ description: The Browser Extension for Publishers, available for Chrome and Fire
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 6
+position: 1
 
 ---

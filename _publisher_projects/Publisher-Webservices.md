@@ -11,6 +11,6 @@ description: Get access to your <b>publisher account, statistics, programs</b> a
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 3
+position: 6
 
 ---
