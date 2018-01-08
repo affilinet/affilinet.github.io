@@ -11,6 +11,6 @@ description: The affilinet OXID eSale-Module offers the <b>automatic affiliate t
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 7
+position: 8
 
 ---
