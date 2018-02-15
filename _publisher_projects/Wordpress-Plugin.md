@@ -1,7 +1,7 @@
 ---
 # Github project slug used to link to the project page
 slug: wordpress-plugin
-title: WordPress Plugin
+title: WordPress Plugin - Performance Ads
 # image used for the project overview (see assets/img folder)
 img: header_800_Business_Offers.jpg
 # text for HTML alt tag
