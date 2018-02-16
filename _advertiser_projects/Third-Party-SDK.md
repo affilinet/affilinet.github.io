@@ -1,6 +1,6 @@
 ---
 # Github project slug used to link to the project page
-slug: third-party-sdks
+slug: mobile-sdks-standard
 title: Third Party Mobile SDKs
 # image used for the project overview (see assets/img folder)
 img: header_800_Mobile_App2.jpg
