@@ -3,7 +3,7 @@
 slug: wordpress-plugin-productwidgets
 title: WordPress Plugin - Product Widgets
 # image used for the project overview (see assets/img folder)
-img: header_800_Business_Offers.jpg
+img: header_800_Basket_Tracking.jpg
 # text for HTML alt tag
 alt: affilinet Product Widgets - Wordpress Plugin 
 # description used for the project overview
