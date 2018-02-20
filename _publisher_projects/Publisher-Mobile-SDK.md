@@ -3,7 +3,7 @@
 slug: mobile-sdk-publisher
 title: Publisher Mobile Ad-SDK
 # image used for the project overview (see assets/img folder)
-img: header_1200_Mobile_Commerce.jpg
+img: header_800_Mobile_App2.jpg
 # text for HTML alt tag
 alt: affilinet Publisher Mobile Ad-SDK
 # description used for the project overview

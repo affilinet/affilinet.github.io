@@ -3,7 +3,7 @@
 slug: mobile-sdk-advertiser
 title: Advertiser Mobile SDK
 # image used for the project overview (see assets/img folder)
-img: header_800_Mobile_App.jpg
+img: header_800_Mobile_App2.jpg
 # text for HTML alt tag
 alt: affilinet Advertiser Mobile SDK
 # description used for the project overview

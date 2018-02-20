@@ -3,7 +3,7 @@
 slug: advertiser-webservices
 title: Advertiser Webservices
 # image used for the project overview (see assets/img folder)
-img: header_800_Call_Trackig.jpg
+img: header_800_Webservices.jpg
 # text for HTML alt tag
 alt: affilinet Advertiser Webservices
 # description used for the project overview

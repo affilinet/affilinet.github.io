@@ -3,7 +3,7 @@
 slug: publisher-webservices
 title: Publisher Webservices
 # image used for the project overview (see assets/img folder)
-img: header_1200_SEM.jpg
+img: header_800_Webservices.jpg
 # text for HTML alt tag
 alt: affilinet Publisher Webservices
 # description used for the project overview
