@@ -3,7 +3,7 @@
 slug: browser-webextension-publisher
 title: Browser Extension for Publishers
 # image used for the project overview (see assets/img folder)
-img: header_800_Performance_Ads_2.jpg
+img: header_800_Advertiser.jpg
 # text for HTML alt tag
 alt: Browser Extension for Publishers
 # description used for the project overview
