@@ -11,6 +11,6 @@ description: Easily integrate <b>intelligent display ads</b> into your site with
 # published: the project is only shown on the project overview page if set to true
 published: true
 # position: used for sorting the projects on the overview page 
-position: 3
+position: 4
 
 ---
